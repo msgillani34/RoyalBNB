@@ -1,0 +1,125 @@
+* {
+  background-color: black;
+}
+@font-face {
+  font-family: "poppins-Bold";
+  src: url("Fonts/Poppins-Bold.ttf");
+}
+.topnav {
+  overflow: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #271f1b;
+  text-align: left;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: poppins-Bold, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.form input {
+  /* margin: 5px 10px 5px 0; */
+  padding: 15px 100px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 15px 40px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 5px;
+}
+
+.form button:hover {
+  background-color: rgb(31, 218, 46);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+.info {
+  color: white;
+  font-family: poppins-Bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.holding {
+  border-radius: 20px;
+  border: 1px solid #271f1b;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.one {
+  padding: 30px 80px 30px 80px;
+}
+
+.total {
+  border-radius: 20px;
+  border: 1px solid #271f1b;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.two {
+  padding: 30px 80px 30px 80px;
+}
+
+.payout {
+  border-radius: 20px;
+  border: 1px solid #271f1b;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.three {
+  padding: 30px 80px 30px 80px;
+}
+
+.pending {
+  border-radius: 20px;
+  border: 1px solid #271f1b;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.four {
+  padding: 30px 80px 30px 80px;
+}
+
+.bnb {
+  color: white;
+  font-family: poppins-Bold;
+  border-radius: 20px;
+  border: 1px solid #271f1b;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  font-family: poppins-Bold;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #271f1b;
+}
